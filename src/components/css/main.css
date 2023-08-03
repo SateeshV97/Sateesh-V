@@ -1,0 +1,111 @@
+/* styles.css */
+.navbar-brand,
+.navbar-nav a.nav-link {
+  color: white;
+}
+
+body {
+    background-color: #000;
+  }
+
+.mySideBar{
+    display: flex;
+    flex-direction: column;
+    min-height:75vh;
+   
+}
+
+
+  .rowsidebar {
+    flex: 1;
+    
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    left: 0;
+  }
+
+  .dark-background {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbarBg{
+    backgroundColor: "#3e3e40" !important
+  }
+
+  .custom-card {
+    height:  50px;
+    background-color: #262626;
+    color: white; /* Optional: To change the text color inside the card */
+  }
+
+
+  .custom-card2 {
+    height:  100px;
+    background-color: #262626;
+    color: white; /* Optional: To change the text color inside the card */
+  }
+  .spanColor{
+    color: red;
+  }
+  .button-spanColor{
+    color: rgb(42, 108, 215) !important;
+    margin-top: 10px !important;
+  }
+
+  .custom-font-card2 {
+    font-size: 14px;
+  }
+
+.custom-button {
+    background-color: #535354f9;
+    color: white;
+  }
+
+  .button2-spanColor{
+    color: white;
+    background-color: blue !important;
+  }
+
+
+
+  .bg-black {
+    background-color:#535354f9 !important;
+    color: white;
+    border:1px solid #3e3e40;
+  }
+  
+  .bg-blue {
+    background-color: rgb(109, 141, 245);
+    color: white;
+    border:1px solid #3e3e40;
+  }
+
+
+
+  .custom-margin-right {
+    margin-right: 10px; /* Adjust the value as needed */
+  }
+
+  .custom-font-sidebar {
+    font-size: 15px;
+  }
+
+  .custom_card{
+    margin-right: 1.5% !important;
+  }
